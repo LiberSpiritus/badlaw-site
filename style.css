@@ -12,4 +12,5 @@
 @media (max-width: 786px){
     .badlaw-cont ul {flex-direction: column;-ms-flex-direction: column;}
     .badlaw-cont ul li {margin-top: 20px;}
+    .badlaw-cont ul li:not(:last-child) {margin:0;}
 }
