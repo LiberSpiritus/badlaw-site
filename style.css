@@ -1,8 +1,9 @@
 @charset "utf-8";
 
 .section {width: 80%;margin:40px auto 40px auto;text-align: center;}
-.badlaw-wrap {margin-top: 40px;}
-.badlaw-cont ul {display: flex;display:-ms-flexbox;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;margin-top: 40px;}
+.badlaw-wrap {margin-top: 30px;}
+.badlaw-cont ul {display: flex;display:-ms-flexbox;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+.badlaw-cont ul:not(:first-child) {margin-top: 40px;}
 .badlaw-cont ul li:not(:last-child) {margin-right:20px;}
 .badlaw-cont ul li:first-child .refer-wrap {margin-top:20px;}
 .btn-url {padding:10px; border:1px solid black;border-radius: 4px;}
