@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .section {width: 80%;margin:40px auto 40px auto;text-align: center;}
-.btn-area, .section-cont {margin-top: 30px;}
+.btn-area, .section-cont, .tabmenu {margin-top: 30px;}
 .badlaw-wrap {margin-top: 30px;}
 .badlaw-cont ul {display: flex;display:-ms-flexbox;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
 .badlaw-cont ul:not(:first-child) {margin-top: 40px;}
@@ -10,9 +10,22 @@
 .badlaw-cont ul li:first-child .refer-wrap {margin-top:20px;}
 .btn-url {padding:10px; border:1px solid black;border-radius: 4px;}
 
+
+.big_tab ul{overflow: hidden; width: 100%;}
+.big_tab ul li{width: 50%; box-sizing: border-box; float: left; list-style-type: none; border: 1px solid #ccc; text-align: center; line-height: 40px;}
+.big_tab ul li.activeClass{font-weight: bold; font-size: 20px;}
+.sm_select {display: none;}
+.sm_select select {width:100%; height: 40px; }
+
+
 @media (max-width: 768px){
     /* .badlaw-cont ul {flex-direction: column;-ms-flex-direction: column;} */
     .badlaw-cont ul li {margin-top: 20px;}
     .badlaw-cont ul li:not(:last-child) {margin: 0;margin-right: 10px;}
     .badlaw-cont ul li+li{margin-top:40px;}
+
+    .sm_select {display: block;}
+    .big_tab{display: none;}
+
+
 }

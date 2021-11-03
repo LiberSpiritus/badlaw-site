@@ -7,7 +7,8 @@
     <title>Korea Bad Law Site</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./common.js" defer></script>
 <body>
     <section class="section">
         <div class="section-tit">
@@ -22,128 +23,149 @@
             <a href="https://m.blog.naver.com/4ugudtjs/222509455150" class="btn-url" title="나나님 블로그">참고 사이트 2</a>
         </div>
         <div class="section-cont">
-            업데이트 : 211104 - 새로운 법안 갱신. (날짜 지난건 일단 지우는걸로 하겠습니다.)
+            업데이트 : 211104 - 새로운 법안 갱신. (날짜 지난건 일단 지우는걸로 하겠습니다.), 관리 용이하게 하기 위해 탭 메뉴 추가 (Jquery 기반)
         </div>
-        <div class="badlaw-wrap">
-            <div class="badlaw-cont">
-                <ul>
-                    <li>[2112941] 치매관리법 일부개정법률안 (조명희의원등 15인) (~11/5)
-                        <p>(흰갓은 치매와 관련있음. 이를 빌미로 세금 더 사용하려 함. 참고로 치매발생 1위 국가가 Korea임.)</p>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/dtoe94" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112891] 실내공기질 관리법 일부개정법률안 (윤미향의원등 12인) (~11/5)
-                        <p>(공기조차 국가가 통제하려고 하는 법안임.)</p>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/w6b8nr" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112976] 모자보건법 일부개정법률안 (배현진의원등 12인) (~11/6)
-                        <p>(국가가 임산부에게 조차 의무적으로 실태조사를 하려 함. 참고로 자폐률 1위가 Korea임.)</p>
-                        <div class="refer-wrap"><a href="http://www.weeklyseoul.net/news/articleView.html?idxno=35859" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/l927sv" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112971] 감염병의 예방 및 관리에 관한 법률 일부개정법률안 (고영인의원등 10인) (~11/6)
-                        <p>(정치방역 의료진에게 내가 낸 국민혈세 낭비하는 악법.)</p>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/l75h34" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112970] 의료기사 등에 관한 법률 일부개정법률안 (고영인의원등 10인) (~11/6)
-                        <p>(정치방역에 동원될 꼭두각시 의료진 양성 법안 반대.)</p>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/l75h34" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2113001] 식품위생법 일부개정법률안 (배진교의원등 10인) (~11/7)
-                        <p>1) 유전자변형농축수산물 등을 원재료로 하여 제조ㆍ가공한 유전자변형식품 등에 대해서는 유전자변형 DNA 또는 단백질의 잔존 여부에 상관없이 유전자변형식품임을 표시하도록 하고 있는 것을 삭제하려는 개정법률안은 국민들의 알 권리를 박탈하는 것임<br>
-                            2) 유전자변형농축수산물 등이 1천분의 9 이하로 포함된 경우에는 유전자변형식품임을 표시하지 아니하도록 함으로써 국민의 알권리와 선택권을 보호하려는 것이라는 개정법률안은 궤변. 적은 양이라도 유전자변형식품이 수십년간 몸안에 축적되면 무슨 일이 일어날지 아무도 모르며, 과학적으로 안전성이 인정된 바가 없음. 유전자변형인지 아닌지를 구분도 못하게 하고 있음.<br>
-                        </p>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/m94itq" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2113003] 약사법 일부개정법률안 (인재근의원등 10인) (~11/7)
-                        <p>(이젠 비대면으로도 출입 및 검사를 실시한다는 악법)</p>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/is7a2v" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112994] 심뇌혈관질환의 예방 및 관리에 관한 법률 일부개정법률안<br>(김성주의원등 10인) (~11/7)
-                        <p>(흰갓의 부작용 증세중 하나가 심장약, 혈압약이다. 이걸 이용하려 함.)</p>
-                        <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/g4fo7k" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112996] 전자장치 부착 등에 관한 법률 일부개정법률안<br>
-                        (유정주의원 등 12인) (~11/10)
-                        <p>("아동 성폭력범"이라는 단어로 프레임 씌우면서 언제든지 법 악용할수 있음. 악법!!)</p>
-                        <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/3cqvok" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2113028] 전자장치 부착 등에 관한 법률 일부개정법률안<br>
-                        (유정주의원 등 12인) (~11/10)
-                        <p>("아동 성폭력범"이라는 단어로 프레임 씌우면서 언제든지 법 악용할수 있음. 악법!!)</p>
-                        <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/3cqvok" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2113017] 유전자변형생물체의 국가간 이동 등에 관한 법률 일부개정법률안<br>
-                        (신영대의원 등 10인) (~11/11)
-                        <p>(흰갓안에 발견되고있는 나노기생충(=유전자변형생물체)도 이동가능하게 합법화 시키는 악법!!)</p>
-                        <div class="refer-wrap"><a href="https://m.blog.naver.com/tldms3411/222544987174?fbclid=IwAR0amNZoKUI7cl-gpiJPMpj0UlTNFK8ovC-gC2QNxnTZ4hbe6SEFDVkO-zs" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/1lytjh" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112789] 국가적 재난에 따른 경제위기 극복을 위한 특별금융지원법안<br>
-                        (우원식의원 등 22인) (~11/15)
-                        <p>(통제하기 위해 CBDC 법안이 또 나왔다!! 무조건 반대하세요 이 2개법안 한 셋트!)</p>
-                        <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/1a3c7r" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2113016] 가상자산산업기본법안<br>
-                        (윤창현의원 등 11인) (~11/15)
-                        <p>(통제하기 위해 CBDC 법안이 또 나왔다!! 무조건 반대하세요 이 2개법안 한 셋트!)</p>
-                        <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/1a3c7r" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2113028] 가상자산산업기본법안<br>
-                        (윤창현의원 등 11인) (~11/15)
-                        <p>(통제하기 위해 CBDC 법안이 또 나왔다!! 무조건 반대하세요 이 2개법안 한 셋트!)</p>
-                        <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/1a3c7r" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112790] 국가재정법 일부개정법률안<br>
-                        (우원식의원 등 20인) (~11/05)
-                        <p>(위에 CBDC와 연계하여 국가 의존형 배급제 사회로 만드려하는 2개법안 한 셋트!!)</p>
-                        <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/c2kx9g" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
-                <ul>
-                    <li>[2112789] 국가적 재난에 따른 경제위기 극복을 위한 특별금융지원법안<br>
-                        (우원식의원 등 22인) (~11/15)
-                        <p>(위에 CBDC와 연계하여 국가 의존형 배급제 사회로 만드려하는 2개법안 한 셋트!!)</p>
-                        <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
-                    </li>
-                    <li><a class="btn-url" href="https://url.kr/rwoj16" title="입법 URL 접속" target="_blank">URL 접속</a></li>
-                </ul>
+
+
+        <div class="tabmenu">
+            <div class="big_tab">
+              <ul>
+                <li><a href="#tab01">악법</a></li>
+                <li><a href="#tab02">청원 외 다른링크</a></li>
+              </ul>
             </div>
-        </div>
+            <div class="sm_select">
+              <select name="" id="tabmenu">
+                <option value="#tab01">악법</option>
+                <option value="#tab02">청원 외 다른링크</option>
+              </select>
+            </div>
+          </div>
+          <div id="tab01" class="tab-contents">
+            <div class="badlaw-wrap">
+                <div class="badlaw-cont">
+                    <ul>
+                        <li>[2112941] 치매관리법 일부개정법률안 (조명희의원등 15인) (~11/5)
+                            <p>(흰갓은 치매와 관련있음. 이를 빌미로 세금 더 사용하려 함. 참고로 치매발생 1위 국가가 Korea임.)</p>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/dtoe94" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112891] 실내공기질 관리법 일부개정법률안 (윤미향의원등 12인) (~11/5)
+                            <p>(공기조차 국가가 통제하려고 하는 법안임.)</p>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/w6b8nr" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112976] 모자보건법 일부개정법률안 (배현진의원등 12인) (~11/6)
+                            <p>(국가가 임산부에게 조차 의무적으로 실태조사를 하려 함. 참고로 자폐률 1위가 Korea임.)</p>
+                            <div class="refer-wrap"><a href="http://www.weeklyseoul.net/news/articleView.html?idxno=35859" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/l927sv" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112971] 감염병의 예방 및 관리에 관한 법률 일부개정법률안 (고영인의원등 10인) (~11/6)
+                            <p>(정치방역 의료진에게 내가 낸 국민혈세 낭비하는 악법.)</p>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/l75h34" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112970] 의료기사 등에 관한 법률 일부개정법률안 (고영인의원등 10인) (~11/6)
+                            <p>(정치방역에 동원될 꼭두각시 의료진 양성 법안 반대.)</p>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/l75h34" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2113001] 식품위생법 일부개정법률안 (배진교의원등 10인) (~11/7)
+                            <p>1) 유전자변형농축수산물 등을 원재료로 하여 제조ㆍ가공한 유전자변형식품 등에 대해서는 유전자변형 DNA 또는 단백질의 잔존 여부에 상관없이 유전자변형식품임을 표시하도록 하고 있는 것을 삭제하려는 개정법률안은 국민들의 알 권리를 박탈하는 것임<br>
+                                2) 유전자변형농축수산물 등이 1천분의 9 이하로 포함된 경우에는 유전자변형식품임을 표시하지 아니하도록 함으로써 국민의 알권리와 선택권을 보호하려는 것이라는 개정법률안은 궤변. 적은 양이라도 유전자변형식품이 수십년간 몸안에 축적되면 무슨 일이 일어날지 아무도 모르며, 과학적으로 안전성이 인정된 바가 없음. 유전자변형인지 아닌지를 구분도 못하게 하고 있음.<br>
+                            </p>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/m94itq" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2113003] 약사법 일부개정법률안 (인재근의원등 10인) (~11/7)
+                            <p>(이젠 비대면으로도 출입 및 검사를 실시한다는 악법)</p>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/is7a2v" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112994] 심뇌혈관질환의 예방 및 관리에 관한 법률 일부개정법률안<br>(김성주의원등 10인) (~11/7)
+                            <p>(흰갓의 부작용 증세중 하나가 심장약, 혈압약이다. 이걸 이용하려 함.)</p>
+                            <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/g4fo7k" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112996] 전자장치 부착 등에 관한 법률 일부개정법률안<br>
+                            (유정주의원 등 12인) (~11/10)
+                            <p>("아동 성폭력범"이라는 단어로 프레임 씌우면서 언제든지 법 악용할수 있음. 악법!!)</p>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/3cqvok" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2113028] 전자장치 부착 등에 관한 법률 일부개정법률안<br>
+                            (유정주의원 등 12인) (~11/10)
+                            <p>("아동 성폭력범"이라는 단어로 프레임 씌우면서 언제든지 법 악용할수 있음. 악법!!)</p>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/3cqvok" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2113017] 유전자변형생물체의 국가간 이동 등에 관한 법률 일부개정법률안<br>
+                            (신영대의원 등 10인) (~11/11)
+                            <p>(흰갓안에 발견되고있는 나노기생충(=유전자변형생물체)도 이동가능하게 합법화 시키는 악법!!)</p>
+                            <div class="refer-wrap"><a href="https://m.blog.naver.com/tldms3411/222544987174?fbclid=IwAR0amNZoKUI7cl-gpiJPMpj0UlTNFK8ovC-gC2QNxnTZ4hbe6SEFDVkO-zs" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/1lytjh" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112789] 국가적 재난에 따른 경제위기 극복을 위한 특별금융지원법안<br>
+                            (우원식의원 등 22인) (~11/15)
+                            <p>(통제하기 위해 CBDC 법안이 또 나왔다!! 무조건 반대하세요 이 2개법안 한 셋트!)</p>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/1a3c7r" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2113016] 가상자산산업기본법안<br>
+                            (윤창현의원 등 11인) (~11/15)
+                            <p>(통제하기 위해 CBDC 법안이 또 나왔다!! 무조건 반대하세요 이 2개법안 한 셋트!)</p>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/1a3c7r" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2113028] 가상자산산업기본법안<br>
+                            (윤창현의원 등 11인) (~11/15)
+                            <p>(통제하기 위해 CBDC 법안이 또 나왔다!! 무조건 반대하세요 이 2개법안 한 셋트!)</p>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/1a3c7r" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112790] 국가재정법 일부개정법률안<br>
+                            (우원식의원 등 20인) (~11/05)
+                            <p>(위에 CBDC와 연계하여 국가 의존형 배급제 사회로 만드려하는 2개법안 한 셋트!!)</p>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/c2kx9g" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                    <ul>
+                        <li>[2112789] 국가적 재난에 따른 경제위기 극복을 위한 특별금융지원법안<br>
+                            (우원식의원 등 22인) (~11/15)
+                            <p>(위에 CBDC와 연계하여 국가 의존형 배급제 사회로 만드려하는 2개법안 한 셋트!!)</p>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
+                        </li>
+                        <li><a class="btn-url" href="https://url.kr/rwoj16" title="입법 URL 접속" target="_blank">URL 접속</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+          <div id="tab02" class="tab-contents">
+            <h2>Tab 2</h2>
+          </div>
     </section>
 </body>
 </html>
