@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 .section {width: 80%;margin:40px auto 40px auto;text-align: center;}
+.btn-area {display: flex;display:-ms-flexbox;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
 .btn-area, .section-cont, .tabmenu {margin-top: 30px;}
 .badlaw-wrap {margin-top: 30px;}
 .badlaw-cont ul {display: flex;display:-ms-flexbox;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
@@ -11,6 +12,9 @@
 .btn-url {padding:10px; border:1px solid black;border-radius: 4px;}
 
 
+.btn-area a {margin-right: 10px;}
+
+/* 탭 메뉴 */
 .big_tab ul{overflow: hidden; width: 100%;}
 .big_tab ul li{width: 50%; box-sizing: border-box; float: left; list-style-type: none; border: 1px solid #ccc; text-align: center; line-height: 40px;}
 .big_tab ul li.activeClass{font-weight: bold; font-size: 20px;}
