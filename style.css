@@ -6,7 +6,7 @@
 .badlaw-wrap, .petition-wrap {margin-top: 30px;}
 .badlaw-cont ul, .petition-cont ul {display: flex;display:-ms-flexbox;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
 .badlaw-cont ul:not(:first-child), .petition-cont ul:not(:first-child)  {margin-top: 40px;}
-.badlaw-cont ul li:first-child, .petition-cont ul li:first-child {width: 50%;}
+.badlaw-cont ul li:first-child, .petition-cont ul li:first-child {margin-right: 10px;width: 50%;}
 .badlaw-cont ul li:not(:last-child), .petition-cont ul li:nor(:last-child) {margin-right:20px;}
 .badlaw-cont ul li:first-child .refer-wrap, .petition-cont ul li:first-child .refer-wrap {margin-top:20px;}
 .btn-url {padding:10px; border:1px solid black;border-radius: 4px;}
