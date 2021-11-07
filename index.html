@@ -24,7 +24,7 @@
             <a href="https://m.blog.naver.com/4ugudtjs/222509455150" class="btn-url" title="나나님 블로그">참고 사이트 2</a>
         </div>
         <div class="section-cont">
-            업데이트 : 211105 - 입법 2개 추가. 청원 외 다른링크(국민동의청원 2개 추가 - 수개표, 백신 접종 중단)<br>
+            업데이트 : 211108 - 복사 기능 구현 (참고 설명 란 텍스트는 따로 지워서 구현해야 해서 참고 설명 버튼은 제거 했습니다.)<br>
             아래는 악법 입법에 대한 소통이 가능한 그룹 및 톡방입니다. 가입 및 참여하시면 좋습니다!<br>
             뿐만 아니고, 다른 사이트에 공유까지 수반되어야 합니다. 힘드시겠지만, 각자의 상황에 맞춰 힘닿는데까지 해봅시다!
         </div>
@@ -32,6 +32,9 @@
             <a href="https://www.facebook.com/groups/406598500410394" class="btn-url" title="악법 입법 반대 그룹 페북 사이트">악법 입법 반대 그룹 (페북)</a>
             <a href="https://open.kakao.com/o/g1VyYm1c" class="btn-url" title="입법 예고 공지 톡방">입법 예고 공지 톡방</a>
             <a href="https://open.kakao.com/o/g80FvPzd" class="btn-url" title="악법 입법 반대 톡방">악법 입법 반대 톡방</a>
+        </div>
+        <div class="btn-area">
+            <a href="javascript:;" class="btn-url" role="button" title="복사" onclick="copy3()">복사</a>
         </div>
         <div class="tabmenu">
             <div class="big_tab">
@@ -50,9 +53,10 @@
           <!-- 악법 탭 -->
           <div id="tab01" class="tab-contents">
             <div class="badlaw-wrap">
-                <div class="badlaw-cont">
+                <div class="badlaw-cont copy1">
                     <ul>
-                        <li>[2112941] 치매관리법 일부개정법률안 (조명희의원등 15인) (~11/5)
+                        <li>
+                            <p>[2112941] 치매관리법 일부개정법률안 (조명희의원등 15인) (~11/5)</p>
                             <p>(흰갓은 치매와 관련있음. 이를 빌미로 세금 더 사용하려 함. 참고로 치매발생 1위 국가가 Korea임.)</p>
                         </li>
                         <li><a class="btn-url" href="https://url.kr/dtoe94" title="입법 URL 접속" target="_blank">URL 접속</a></li>
@@ -66,7 +70,7 @@
                     <ul>
                         <li>[2112976] 모자보건법 일부개정법률안 (배현진의원등 12인) (~11/6)
                             <p>(국가가 임산부에게 조차 의무적으로 실태조사를 하려 함. 참고로 자폐률 1위가 Korea임.)</p>
-                            <div class="refer-wrap"><a href="http://www.weeklyseoul.net/news/articleView.html?idxno=35859" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
+                            <!-- <div class="refer-wrap"><a href="http://www.weeklyseoul.net/news/articleView.html?idxno=35859" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
                         </li>
                         <li><a class="btn-url" href="https://url.kr/l927sv" title="입법 URL 접속" target="_blank">URL 접속</a></li>
                     </ul>
@@ -85,7 +89,7 @@
                     <ul>
                         <li>[2113001] 식품위생법 일부개정법률안 (배진교의원등 10인) (~11/7)
                             <p>1) 유전자변형농축수산물 등을 원재료로 하여 제조ㆍ가공한 유전자변형식품 등에 대해서는 유전자변형 DNA 또는 단백질의 잔존 여부에 상관없이 유전자변형식품임을 표시하도록 하고 있는 것을 삭제하려는 개정법률안은 국민들의 알 권리를 박탈하는 것임<br>
-                                2) 유전자변형농축수산물 등이 1천분의 9 이하로 포함된 경우에는 유전자변형식품임을 표시하지 아니하도록 함으로써 국민의 알권리와 선택권을 보호하려는 것이라는 개정법률안은 궤변. 적은 양이라도 유전자변형식품이 수십년간 몸안에 축적되면 무슨 일이 일어날지 아무도 모르며, 과학적으로 안전성이 인정된 바가 없음. 유전자변형인지 아닌지를 구분도 못하게 하고 있음.<br>
+                            2) 유전자변형농축수산물 등이 1천분의 9 이하로 포함된 경우에는 유전자변형식품임을 표시하지 아니하도록 함으로써 국민의 알권리와 선택권을 보호하려는 것이라는 개정법률안은 궤변. 적은 양이라도 유전자변형식품이 수십년간 몸안에 축적되면 무슨 일이 일어날지 아무도 모르며, 과학적으로 안전성이 인정된 바가 없음. 유전자변형인지 아닌지를 구분도 못하게 하고 있음.<br>
                             </p>
                         </li>
                         <li><a class="btn-url" href="https://url.kr/m94itq" title="입법 URL 접속" target="_blank">URL 접속</a></li>
@@ -99,7 +103,7 @@
                     <ul>
                         <li>[2112994] 심뇌혈관질환의 예방 및 관리에 관한 법률 일부개정법률안<br>(김성주의원등 10인) (~11/7)
                             <p>(흰갓의 부작용 증세중 하나가 심장약, 혈압약이다. 이걸 이용하려 함.)</p>
-                            <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/4ugudtjs/222553691338" class="btn-url" title="참고 설명" target="_blank">참고설명</a></div> -->
                         </li>
                         <li><a class="btn-url" href="https://url.kr/g4fo7k" title="입법 URL 접속" target="_blank">URL 접속</a></li>
                     </ul>
@@ -115,7 +119,7 @@
                         <li>[2113017] 유전자변형생물체의 국가간 이동 등에 관한 법률 일부개정법률안<br>
                             (신영대의원 등 10인) (~11/11)
                             <p>(흰갓안에 발견되고있는 나노기생충(=유전자변형생물체)도 이동가능하게 합법화 시키는 악법!!)</p>
-                            <div class="refer-wrap"><a href="https://m.blog.naver.com/tldms3411/222544987174?fbclid=IwAR0amNZoKUI7cl-gpiJPMpj0UlTNFK8ovC-gC2QNxnTZ4hbe6SEFDVkO-zs" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/tldms3411/222544987174?fbclid=IwAR0amNZoKUI7cl-gpiJPMpj0UlTNFK8ovC-gC2QNxnTZ4hbe6SEFDVkO-zs" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
                         </li>
                         <li><a class="btn-url" href="https://url.kr/1lytjh" title="입법 URL 접속" target="_blank">URL 접속</a></li>
                     </ul>
@@ -123,7 +127,7 @@
                         <li>[2113084] 감염병의 예방 및 관리에 관한 법률 일부개정법률안<br>
                             (최혜영의원 등 10인) (~11/13)
                             <p>(장애를 가지신분을 타겟으로 하여, 점차 접종증명서의 범위를 넓히려고 하는 악랄한 악법!)</p>
-                            <div class="refer-wrap"><a href="https://m.blog.naver.com/PostView.naver?blogId=4ugudtjs&logNo=222558558033&navType=by" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
+                            <!-- <div class="refer-wrap"><a href="https://m.blog.naver.com/PostView.naver?blogId=4ugudtjs&logNo=222558558033&navType=by" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
                         </li>
                         <li><a class="btn-url" href="https://bit.ly/3BLiydo" title="입법 URL 접속" target="_blank">URL 접속</a></li>
                     </ul>
@@ -131,7 +135,7 @@
                         <li>[2113095] 아동복지법 일부개정법률<br>
                             (고민정의원 등 10인) (~11/13)
                             <p>(아동을 18세로 규정하고, 아동복지시설 퇴소 연령을 성인인 19세로 하고 본인이 원하면 5년(24세)까지 연장하여 국가가 관리한다는 악법!)</p>
-                            <div class="refer-wrap"><a href="https://www1.president.go.kr/petitions/598992" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div>
+                            <!-- <div class="refer-wrap"><a href="https://www1.president.go.kr/petitions/598992" class="btn-url" title="참고 설명" target="_blank">참고 설명</a></div> -->
                         </li>
                         <li><a class="btn-url" href="https://url.kr/osgmrw" title="입법 URL 접속" target="_blank">URL 접속</a></li>
                     </ul>
