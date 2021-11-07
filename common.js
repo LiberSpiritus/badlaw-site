@@ -35,7 +35,7 @@ $(".tab-contents").not(':first').hide();
 
 
 function copy3() {
-  var obj = document.querySelectorAll(".copy1 ul li:first-child, .copy1 ul li:last-child a[href]");
+  var obj = document.querySelectorAll(".copy1 ul li:first-child, .copy1 ul li:last-child a[href], .copy2 ul li:first-child, .copy2 ul li:last-child a[href] ");
   const textArea = document.createElement('textarea');
   document.body.appendChild(textArea);
   for(var i = 0; i < obj.length; i++){
