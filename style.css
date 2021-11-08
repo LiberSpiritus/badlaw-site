@@ -13,6 +13,8 @@
 
 .btn-area a {margin-right: 10px;}
 
+.badlaw-tit, .petition-tit {font-size: 30px; margin-bottom: 20px;}
+
 /* 탭 메뉴 */
 .big_tab ul{overflow: hidden; width: 100%;}
 .big_tab ul li{width: 50%; box-sizing: border-box; float: left; list-style-type: none; border: 1px solid #ccc; text-align: center; line-height: 40px;}
